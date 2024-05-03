@@ -52,6 +52,5 @@ pipeline {
                  body: "Pipeline run finished. Check the Jenkins dashboard for details.",
                  // The attachLog parameter should be corrected or removed
                  // attachmentsPattern: '**/target/*.log'
-        }
     }
 }
