@@ -50,8 +50,6 @@ pipeline {
             mail to: 'abhisheksrini2001@gmail.com',
                  subject: "Jenkins Pipeline Status: ${currentBuild.fullDisplayName}",
                  body: "Pipeline run finished. Check the Jenkins dashboard for details."
-                 // Note: The attachLog parameter was incorrect and has been commented out
-                 // attachmentsPattern: '**/target/*.log'
         }
     }
 }
